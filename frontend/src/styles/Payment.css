@@ -1,0 +1,49 @@
+/* Styling for Payment Page */
+.payment-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.payment-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.payment-details {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.payment-details p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4caf50;
+    /* Green color for Payment Completed message */
+    text-align: center;
+}
+
+.buy-again-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-again-btn:hover {
+    background-color: #45a049;
+    /* Darker green color on hover */
+}
